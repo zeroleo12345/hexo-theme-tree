@@ -59,6 +59,7 @@ function switchTreeOrIndex(){
 
 //生成文章目录
 function showArticleIndex() {
+	return;
 	$(".article-toc").empty();
 	$(".article-toc").hide();	
 	$(".article-toc.active-toc").removeClass("active-toc");
